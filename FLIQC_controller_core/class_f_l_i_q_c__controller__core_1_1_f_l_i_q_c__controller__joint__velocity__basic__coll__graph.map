@@ -1,0 +1,6 @@
+<map id="FLIQC_controller_core::FLIQC_controller_joint_velocity_basic" name="FLIQC_controller_core::FLIQC_controller_joint_velocity_basic">
+<area shape="rect" id="node1" title="The basic controller for FLIQC." alt="" coords="299,63,472,119"/>
+<area shape="rect" id="node2" href="$struct_f_l_i_q_c__controller__core_1_1_l_c_q_problem_input.html" title="The input of the LCQProblem." alt="" coords="5,5,169,47"/>
+<area shape="rect" id="node3" href="$class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html" title="A bridge class to the LCQPow library." alt="" coords="5,71,169,112"/>
+<area shape="rect" id="node4" href="$struct_f_l_i_q_c__controller__core_1_1_l_c_q_problem_output.html" title="The output of the LCQProblem." alt="" coords="5,136,169,177"/>
+</map>

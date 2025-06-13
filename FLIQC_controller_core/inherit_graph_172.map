@@ -1,0 +1,15 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" title=" " alt="" coords="5,330,96,357"/>
+<area shape="rect" id="node2" href="$structhas__operator__delete.html" title=" " alt="" coords="176,5,331,47"/>
+<area shape="rect" id="node3" href="$structhas__operator__delete__size.html" title=" " alt="" coords="176,71,331,112"/>
+<area shape="rect" id="node4" href="$structis__comparable.html" title=" " alt="" coords="148,137,359,163"/>
+<area shape="rect" id="node5" href="$structis__complex.html" title=" " alt="" coords="186,187,321,214"/>
+<area shape="rect" id="node6" href="$structis__input__iterator.html" title="Check if T looks like an input iterator." alt="" coords="184,239,323,280"/>
+<area shape="rect" id="node7" href="$structis__instantiation.html" title=" " alt="" coords="152,305,355,331"/>
+<area shape="rect" id="node8" href="$structis__std__array.html" title=" " alt="" coords="184,355,323,382"/>
+<area shape="rect" id="node9" href="$structmove__always.html" title=" " alt="" coords="151,406,356,433"/>
+<area shape="rect" id="node10" href="$structmove__if__unreferenced.html" title=" " alt="" coords="169,457,337,499"/>
+<area shape="rect" id="node11" href="$structtesting_1_1internal_1_1is__proxy__type__list.html" title=" " alt="" coords="178,523,329,579"/>
+<area shape="rect" id="node12" href="$structtesting_1_1internal_1_1_is_recursive_container_impl_3_01_c_00_01false_01_4.html" title=" " alt="" coords="159,603,348,659"/>
+<area shape="rect" id="node13" href="$structvector__has__data__and__format.html" title=" " alt="" coords="144,684,363,725"/>
+</map>

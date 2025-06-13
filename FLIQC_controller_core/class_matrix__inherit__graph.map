@@ -1,0 +1,9 @@
+<map id="Matrix" name="Matrix">
+<area shape="rect" id="node1" title="Abstract base class for interfacing tailored matrix&#45;vector operations." alt="" coords="250,5,314,32"/>
+<area shape="rect" id="node2" href="$class_dense_matrix.html" title="Interfaces matrix&#45;vector operations tailored to general dense matrices." alt="" coords="5,80,111,107"/>
+<area shape="rect" id="node4" href="$class_sparse_matrix.html" title="Interfaces matrix&#45;vector operations tailored to general sparse matrices." alt="" coords="455,80,563,107"/>
+<area shape="rect" id="node6" href="$class_sparse_matrix_row.html" title="Interfaces matrix&#45;vector operations tailored to general sparse matrices." alt="" coords="294,80,430,107"/>
+<area shape="rect" id="node7" href="$class_symmetric_matrix.html" title="Abstract base class for interfacing matrix&#45;vector operations tailored to symmetric matrices." alt="" coords="135,80,269,107"/>
+<area shape="rect" id="node3" href="$class_sym_dense_mat.html" title="Interfaces matrix&#45;vector operations tailored to symmetric dense matrices." alt="" coords="71,155,189,181"/>
+<area shape="rect" id="node5" href="$class_sym_sparse_mat.html" title="Interfaces matrix&#45;vector operations tailored to symmetric sparse matrices." alt="" coords="213,155,333,181"/>
+</map>

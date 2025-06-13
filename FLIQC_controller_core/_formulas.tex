@@ -1,0 +1,21 @@
+\documentclass{article}
+\usepackage{ifthen}
+\usepackage{epsfig}
+\usepackage[utf8]{inputenc}
+\usepackage{newunicodechar}
+  \newunicodechar{⁻}{${}^{-}$}% Superscript minus
+  \newunicodechar{²}{${}^{2}$}% Superscript two
+  \newunicodechar{³}{${}^{3}$}% Superscript three
+
+\pagestyle{empty}
+\begin{document}
+$a+b$
+\pagebreak
+
+$ x = \begin{bmatrix} \dot{q} \\ \lambda_1 \\ \lambda_2 \\ \vdots \\ \lambda_n \end{bmatrix} $
+\pagebreak
+
+$ \begin{align*} &\min_{x} \quad \frac{1}{2} x^T \begin{bmatrix} Q & 0 \\ 0 & I \end{bmatrix} x + x^T \begin{bmatrix} g \\ 0 \end{bmatrix} \\ &\text{s.t.} \\ &\quad 0 \leq \begin{bmatrix} 0 & I \end{bmatrix} x \leq \lambda_{\max} \\ &\quad \begin{bmatrix} -\phi_1 \\ \vdots \\ -\phi_n \end{bmatrix} + \epsilon \leq \begin{bmatrix} dt P_1 \\ \vdots \\ dt P_n \\ 0 \end{bmatrix} x \leq v_{\text{esc,max}} \\ &\quad \dot{q}_{\text{guide}} \leq \begin{bmatrix} I & -\text{Pinv}_1 & \cdots & -\text{Pinv}_n \end{bmatrix} x \leq \dot{q}_{\text{guide}} \\ &\quad \begin{bmatrix} -\dot{q}_{\min} \\ 0 \end{bmatrix} \leq x \leq \begin{bmatrix} \dot{q}_{\max} \\ \lambda_{\max} \end{bmatrix} \end{align*} $
+\pagebreak
+
+\end{document}
