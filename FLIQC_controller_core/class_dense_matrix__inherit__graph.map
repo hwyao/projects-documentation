@@ -1,5 +1,0 @@
-<map id="DenseMatrix" name="DenseMatrix">
-<area shape="rect" id="node1" title="Interfaces matrix&#45;vector operations tailored to general dense matrices." alt="" coords="11,80,117,107"/>
-<area shape="rect" id="node3" href="$class_sym_dense_mat.html" title="Interfaces matrix&#45;vector operations tailored to symmetric dense matrices." alt="" coords="5,155,123,181"/>
-<area shape="rect" id="node2" href="$class_matrix.html" title="Abstract base class for interfacing tailored matrix&#45;vector operations." alt="" coords="32,5,96,32"/>
-</map>

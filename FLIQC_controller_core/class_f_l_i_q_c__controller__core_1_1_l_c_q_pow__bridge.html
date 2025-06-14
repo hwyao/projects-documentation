@@ -160,6 +160,10 @@ Protected Attributes</h2></td></tr>
 <p>This class encapsulates the LCQPow implementation and provides methods to update options, run the solver, and retrieve debug statistics.</p>
 <p>After initializing the <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html" title="A bridge class to the LCQPow library.">LCQPow_bridge</a> object, you can set several options and need to call <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a0c4eb95c00a07aa2c355d61e50b87a95" title="update the options for the solver. Call this when you change the option attributes.">updateOptions()</a> before running the solver if you change some of the options.</p>
 <p>Then you can call <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a992c9b9c46692d5109f6ff5c5f066d24" title="run the solver and get the result">runSolver()</a> with input to retrieve the output. </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_example__l_c_q_pow_bridge_8cpp-example.html#_a2">Example_LCQPow_bridge.cpp</a>.</dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_l_c_q_pow__bridge_8hpp_source.html#l00246">246</a> of file <a class="el" href="_l_c_q_pow__bridge_8hpp_source.html">LCQPow_bridge.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a48c6fdedb999a69c1ae2d929a1622c98"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a48c6fdedb999a69c1ae2d929a1622c98">&#9670;&nbsp;</a></span>~LCQPow_bridge()</h2>
@@ -208,6 +212,8 @@ Protected Attributes</h2></td></tr>
 <p>getDebugStatistics </p>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="struct_f_l_i_q_c__controller__core_1_1_l_c_q_problem_debug.html" title="The debug statistics of the LCQProblem.">LCQProblemDebug</a> The statistics of the problem </dd></dl>
 
+<p class="definition">Definition at line <a class="el" href="_l_c_q_pow__bridge_8cpp_source.html#l00266">266</a> of file <a class="el" href="_l_c_q_pow__bridge_8cpp_source.html">LCQPow_bridge.cpp</a>.</p>
+
 </div>
 </div>
 <a id="a992c9b9c46692d5109f6ff5c5f066d24"></a>
@@ -250,6 +256,10 @@ Protected Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_example__l_c_q_pow_bridge_8cpp-example.html#a14">Example_LCQPow_bridge.cpp</a>.</dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_l_c_q_pow__bridge_8cpp_source.html#l00233">233</a> of file <a class="el" href="_l_c_q_pow__bridge_8cpp_source.html">LCQPow_bridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -272,6 +282,10 @@ Protected Attributes</h2></td></tr>
 <p>update the options for the solver. Call this when you change the option attributes. </p>
 <p>Options that could be initialized one time and used in each run (which needs updateOptions): <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#ae3b7bd97d92ef05701f3741d28d7485f" title="Stationarity tolerance, tolerance for optimization.">stationarityTolerance</a>, <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a5410509329f8b66c51997a3038c7fcb6" title="Complementarity tolerance, tolerance for complementarity vertical constraint.">complementarityTolerance</a>, <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a7421688d802d8e029d4e5ec31884d831" title="Initial penalty parameter, initial penalty parameter for complementarity.">initialPenaltyParameter</a>, <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a6031812459ce3ce6369aa42d05b3048c" title="Penalty update factor, factor for updating penaltised complementarity term.">penaltyUpdateFactor</a></p>
 <p>Options that will be initialized in each run (Which doesn't need updateOptions): <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a2f2a43d22b8455516aec10622fc9a7a8" title="Number of variables.">nVariables</a>, <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a6eb8e5f3a96352bed8e5f8c31c8deba8" title="Number of constraints.">nConstraints</a>, <a class="el" href="class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html#a1b0664e8b9531d0f4acc5282dc8ebaa1" title="Number of complementarity variables.">nComplementarity</a> </p>
+<dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_example__l_c_q_pow_bridge_8cpp-example.html#a13">Example_LCQPow_bridge.cpp</a>.</dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="_l_c_q_pow__bridge_8cpp_source.html#l00226">226</a> of file <a class="el" href="_l_c_q_pow__bridge_8cpp_source.html">LCQPow_bridge.cpp</a>.</p>
 
 </div>
 </div>
@@ -298,11 +312,13 @@ Protected Attributes</h2></td></tr>
 
 <p>Pointer to the implementation. </p>
 
+<p class="definition">Definition at line <a class="el" href="_l_c_q_pow__bridge_8hpp_source.html#l00266">266</a> of file <a class="el" href="_l_c_q_pow__bridge_8hpp_source.html">LCQPow_bridge.hpp</a>.</p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>/home/geriatronics/FLIQC_example_workspace_ros/src/fliqc_controller_ros/submodule/FLIQC_controller_core/include/FLIQC_controller_core/<a class="el" href="_l_c_q_pow__bridge_8hpp_source.html">LCQPow_bridge.hpp</a></li>
-<li>/home/geriatronics/FLIQC_example_workspace_ros/src/fliqc_controller_ros/submodule/FLIQC_controller_core/src/LCQPow_bridge.cpp</li>
+<li>include/FLIQC_controller_core/<a class="el" href="_l_c_q_pow__bridge_8hpp_source.html">LCQPow_bridge.hpp</a></li>
+<li>src/<a class="el" href="_l_c_q_pow__bridge_8cpp_source.html">LCQPow_bridge.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

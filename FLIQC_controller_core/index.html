@@ -74,18 +74,33 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>This is the C++ library for FLIQC (Fast LInear Quadratic Complementarity) motion planner for robot controllers.</p>
-<h1><a class="anchor" id="autotoc_md1"></a>
+<div class="image">
+<img src="README-FLIQC_controller_core.drawio.png" alt=""/>
+<div class="caption">
+FLIQC_controller_core</div></div>
+   <h1><a class="anchor" id="autotoc_md1"></a>
 Installation</h1>
 <p>It is suggested to install this package from the whole example repository <a href="https://github.com/hwyao/FLIQC_example_workspace_ros">FLIQC_example_workspace_ros</a>, which contains all the submodule for this repository.</p>
 <p>If you really want to install this package individually:</p><ol type="1">
-<li>clone this repository with recursive submodules. ```bash git clone &ndash;recursive <a href="https://github.com/hwyao/FLIQC_controller_core">https://github.com/hwyao/FLIQC_controller_core</a> ```</li>
-<li></li>
+<li>clone this repository with recursive submodules. <div class="fragment"><div class="line">git clone --recursive https://github.com/hwyao/FLIQC_controller_core</div>
+</div><!-- fragment --></li>
+<li>Build the library with CMake. <div class="fragment"><div class="line">mkdir build</div>
+<div class="line">cd build</div>
+<div class="line">cmake ..</div>
+<div class="line">cmake --build .</div>
+</div><!-- fragment --></li>
 </ol>
 <h1><a class="anchor" id="autotoc_md2"></a>
 Quick Start</h1>
-<h1><a class="anchor" id="autotoc_md3"></a>
+<p>If you only run this as standalone library, you can run the example code.</p>
+<div class="fragment"><div class="line">Example_LCQPow</div>
+<div class="line">Example_LCQPow_bridge</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md3"></a>
 Documentation</h1>
-<h1><a class="anchor" id="autotoc_md4"></a>
+<p>You can view the online documentation at the link at the right side of this main page.</p>
+<p>The documentation can be generated with Doxygen with the following command after installing Doxygen. </p><div class="fragment"><div class="line">cd docs</div>
+<div class="line">doxygen Doxyfile</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md4"></a>
 Links</h1>
 <p>The submodule used in our project, LCQPow, a C++ library for solving linear quadratic complementarity problems: <a href="https://github.com/nosnoc/LCQPow">https://github.com/nosnoc/LCQPow</a></p>
 <p>Our previous version of code during the experiment development: <a href="https://github.com/hwyao/LCQP_planner_core">https://github.com/hwyao/LCQP_planner_core</a> </p>

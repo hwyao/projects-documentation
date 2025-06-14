@@ -1,4 +1,7 @@
-<map id="/home/geriatronics/FLIQC_example_workspace_ros/src/fliqc_controller_ros/submodule/FLIQC_controller_core/include/FLIQC_controller_core/LCQPow_bridge.hpp" name="/home/geriatronics/FLIQC_example_workspace_ros/src/fliqc_controller_ros/submodule/FLIQC_controller_core/include/FLIQC_controller_core/LCQPow_bridge.hpp">
-<area shape="rect" id="node1" title="The header file for bridge to LCQPow library For detail implementation, please refer to the LCQPow li..." alt="" coords="5,5,241,105"/>
-<area shape="rect" id="node2" href="$_f_l_i_q_c__controllers_8hpp.html" title="The header file for the FLIQC controller." alt="" coords="5,153,241,253"/>
+<map id="include/FLIQC_controller_core/LCQPow_bridge.hpp" name="include/FLIQC_controller_core/LCQPow_bridge.hpp">
+<area shape="rect" id="node1" title="The header file for bridge to LCQPow library For detail implementation, please refer to the LCQPow li..." alt="" coords="209,5,399,47"/>
+<area shape="rect" id="node2" href="$_l_c_q_pow__bridge_8cpp.html" title="Implementation of the LCQPow_bridge class." alt="" coords="5,102,179,129"/>
+<area shape="rect" id="node3" href="$_f_l_i_q_c__controllers_8hpp.html" title="The header file for the FLIQC controller." alt="" coords="203,95,405,136"/>
+<area shape="rect" id="node5" href="$_example___l_c_q_pow__bridge_8cpp_source.html" title=" " alt="" coords="429,95,629,136"/>
+<area shape="rect" id="node4" href="$_f_l_i_q_c__controllers_8cpp.html" title="Implementation of the FLIQC controller classes." alt="" coords="211,184,397,211"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="ConstraintProduct" name="ConstraintProduct">
-<area shape="rect" id="node1" title="Interface for specifying user&#45;defined evaluations of constraint products." alt="" coords="112,5,251,32"/>
-<area shape="rect" id="node2" href="$class_mpc_constraint_product.html" title="Example illustrating the use of the ConstraintProduct class." alt="" coords="5,80,171,107"/>
-<area shape="rect" id="node3" href="$class_my_constraint_product.html" title="Example illustrating the use of the ConstraintProduct class." alt="" coords="195,80,354,107"/>
-</map>

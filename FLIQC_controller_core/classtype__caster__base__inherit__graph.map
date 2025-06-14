@@ -1,6 +1,0 @@
-<map id="type_caster_base&lt; type &gt;" name="type_caster_base&lt; type &gt;">
-<area shape="rect" id="node1" title="Generic type caster for objects stored on the heap." alt="" coords="187,80,381,107"/>
-<area shape="rect" id="node3" href="$structcopyable__holder__caster.html" title=" " alt="" coords="5,155,181,196"/>
-<area shape="rect" id="node4" href="$classtype__caster.html" title=" " alt="" coords="205,162,363,189"/>
-<area shape="rect" id="node2" href="$classtype__caster__generic.html" title=" " alt="" coords="207,5,361,32"/>
-</map>

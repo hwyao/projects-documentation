@@ -1,5 +1,0 @@
-<map id="Bounds" name="Bounds">
-<area shape="rect" id="node1" title="Manages working sets of bounds (i.e. box constraints)." alt="" coords="64,109,135,136"/>
-<area shape="rect" id="node2" href="$class_subject_to.html" title="Base class for managing working sets of bounds and constraints." alt="" coords="5,5,89,32"/>
-<area shape="rect" id="node3" href="$class_indexlist.html" title="Stores and manages index lists." alt="" coords="113,5,192,32"/>
-</map>
