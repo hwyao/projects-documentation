@@ -1,0 +1,4 @@
+<map id="robot_env_evaluator::FrankaEmikaPreset" name="robot_env_evaluator::FrankaEmikaPreset">
+<area shape="rect" id="node1" title="The Franka Emika Panda robot preset." alt="" coords="11,95,167,136"/>
+<area shape="rect" id="node2" href="$classrobot__env__evaluator_1_1_robot_preset_interface.html" title="the Interface class for the robot preset. Inherit this class to create a new robot preset." alt="" coords="5,5,172,47"/>
+</map>

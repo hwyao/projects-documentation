@@ -1,0 +1,5 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classrobot__env__evaluator_1_1_robot_preset_interface.html" title="the Interface class for the robot preset. Inherit this class to create a new robot preset." alt="" coords="5,39,172,80"/>
+<area shape="rect" id="node2" href="$classrobot__env__evaluator_1_1_franka_emika_no_hand_preset.html" title="The Franka Emika Panda no hand collision mesh robot preset." alt="" coords="220,5,428,47"/>
+<area shape="rect" id="node3" href="$classrobot__env__evaluator_1_1_franka_emika_preset.html" title="The Franka Emika Panda robot preset." alt="" coords="246,71,402,112"/>
+</map>
