@@ -1,16 +1,33 @@
 <map id="src/FLIQC_controllers.cpp" name="src/FLIQC_controllers.cpp">
-<area shape="rect" id="node1" title="Implementation of the FLIQC controller classes." alt="" coords="110,5,297,32"/>
-<area shape="rect" id="node2" href="$_f_l_i_q_c__controllers_8hpp.html" title="The header file for the FLIQC controller." alt="" coords="322,80,490,121"/>
-<area shape="rect" id="node10" title=" " alt="" coords="5,259,92,285"/>
-<area shape="rect" id="node11" title=" " alt="" coords="116,259,189,285"/>
-<area shape="rect" id="node12" title=" " alt="" coords="214,259,294,285"/>
-<area shape="rect" id="node14" title=" " alt="" coords="514,87,605,114"/>
-<area shape="rect" id="node3" title=" " alt="" coords="620,259,723,285"/>
-<area shape="rect" id="node4" title=" " alt="" coords="564,177,627,203"/>
-<area shape="rect" id="node5" title=" " alt="" coords="651,177,775,203"/>
-<area shape="rect" id="node6" title=" " alt="" coords="241,177,299,203"/>
-<area shape="rect" id="node7" href="$_l_c_q_pow__bridge_8hpp.html" title="The header file for bridge to LCQPow library For detail implementation, please refer to the LCQPow li..." alt="" coords="324,169,488,211"/>
-<area shape="rect" id="node8" title=" " alt="" coords="435,259,513,285"/>
-<area shape="rect" id="node9" title=" " alt="" coords="537,259,595,285"/>
-<area shape="rect" id="node13" title=" " alt="" coords="319,259,411,285"/>
+<area shape="rect" id="Node000001" title="Implementation of the FLIQC controller classes. Copyright (C) 2025 Haowen Yao." alt="" coords="110,5,297,31"/>
+<area shape="rect" id="Node000002" href="$_f_l_i_q_c__controllers_8hpp.html" title="The header file for the FLIQC controller." alt="" coords="322,79,490,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,28,346,71,344,76,232,33"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="5,255,92,280"/>
+<area shape="poly" id="edge14_Node000001_Node000010" title=" " alt="" coords="198,33,65,244,61,241,194,30"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="116,255,189,280"/>
+<area shape="poly" id="edge16_Node000001_Node000011" title=" " alt="" coords="204,32,160,242,155,241,198,31"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="214,255,294,280"/>
+<area shape="poly" id="edge15_Node000001_Node000012" title=" " alt="" coords="206,31,213,105,220,156,231,206,245,241,240,243,226,207,215,157,207,106,201,31"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="514,86,605,111"/>
+<area shape="poly" id="edge17_Node000001_Node000014" title=" " alt="" coords="273,28,382,48,503,76,515,79,513,85,501,81,380,54,272,33"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="620,255,723,280"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="435,117,502,165,528,185,554,204,634,247,631,251,551,209,525,189,499,169,432,121"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="564,174,627,199"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="449,116,559,166,557,171,446,121"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="651,174,775,199"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="474,116,659,168,658,173,473,121"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="241,174,299,199"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="378,121,301,169,298,164,375,116"/>
+<area shape="rect" id="Node000007" href="$_l_c_q_pow__bridge_8hpp.html" title="The header file for bridge to LCQPow library For detail implementation, please refer to the LCQPow li..." alt="" coords="324,167,488,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="409,119,409,153,403,153,403,119"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="470,204,620,248,619,253,469,209"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="435,255,513,280"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="424,205,457,242,453,246,420,209"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="537,255,595,280"/>
+<area shape="poly" id="edge8_Node000007_Node000009" title=" " alt="" coords="445,204,531,246,529,251,443,209"/>
+<area shape="poly" id="edge10_Node000007_Node000010" title=" " alt="" coords="324,209,106,256,105,251,323,203"/>
+<area shape="poly" id="edge11_Node000007_Node000011" title=" " alt="" coords="346,209,203,253,202,248,345,204"/>
+<area shape="poly" id="edge12_Node000007_Node000012" title=" " alt="" coords="371,209,290,250,288,246,368,204"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="319,255,411,280"/>
+<area shape="poly" id="edge13_Node000007_Node000013" title=" " alt="" coords="398,208,380,243,375,241,394,206"/>
 </map>

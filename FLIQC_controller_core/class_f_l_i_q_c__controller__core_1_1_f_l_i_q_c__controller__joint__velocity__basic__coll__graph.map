@@ -1,6 +1,9 @@
 <map id="FLIQC_controller_core::FLIQC_controller_joint_velocity_basic" name="FLIQC_controller_core::FLIQC_controller_joint_velocity_basic">
-<area shape="rect" id="node1" title="The basic controller for FLIQC." alt="" coords="299,63,472,119"/>
-<area shape="rect" id="node2" href="$struct_f_l_i_q_c__controller__core_1_1_l_c_q_problem_input.html" title="The input of the LCQProblem." alt="" coords="5,5,169,47"/>
-<area shape="rect" id="node3" href="$class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html" title="A bridge class to the LCQPow library." alt="" coords="5,71,169,112"/>
-<area shape="rect" id="node4" href="$struct_f_l_i_q_c__controller__core_1_1_l_c_q_problem_output.html" title="The output of the LCQProblem." alt="" coords="5,136,169,177"/>
+<area shape="rect" id="Node000001" title="The basic controller for FLIQC." alt="" coords="299,62,472,117"/>
+<area shape="rect" id="Node000002" href="$class_f_l_i_q_c__controller__core_1_1_l_c_q_pow__bridge.html" title="A bridge class to the LCQPow library." alt="" coords="5,5,169,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,43,299,68,298,73,182,48"/>
+<area shape="rect" id="Node000003" href="$struct_f_l_i_q_c__controller__core_1_1_l_c_q_problem_input.html" title="The input of the LCQProblem." alt="" coords="5,69,169,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="183,87,298,87,298,92,183,92"/>
+<area shape="rect" id="Node000004" href="$struct_f_l_i_q_c__controller__core_1_1_l_c_q_problem_output.html" title="The output of the LCQProblem." alt="" coords="5,133,169,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="182,130,298,105,299,111,183,136"/>
 </map>
