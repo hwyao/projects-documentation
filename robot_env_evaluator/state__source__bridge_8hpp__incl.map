@@ -1,6 +1,9 @@
 <map id="include/robot_env_evaluator/state_source_bridge.hpp" name="include/robot_env_evaluator/state_source_bridge.hpp">
-<area shape="rect" id="node1" title="Implementation of the KinematicDataBridge class, which provides a common interface for kinematic data..." alt="" coords="72,5,279,47"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,95,108,121"/>
-<area shape="rect" id="node3" title=" " alt="" coords="132,95,219,121"/>
-<area shape="rect" id="node4" title=" " alt="" coords="243,95,302,121"/>
+<area shape="rect" id="Node000001" title="Implementation of the KinematicDataBridge class, which provides a common interface for kinematic data..." alt="" coords="72,5,279,45"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,93,108,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="148,48,87,88,84,84,145,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="132,93,219,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,46,178,79,173,79,173,46"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="243,93,302,119"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="201,43,249,82,246,87,197,48"/>
 </map>

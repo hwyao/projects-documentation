@@ -1,5 +1,7 @@
 <map id="robot_env_evaluator::RobotPresetInterface" name="robot_env_evaluator::RobotPresetInterface">
-<area shape="rect" id="node1" title="the Interface class for the robot preset. Inherit this class to create a new robot preset." alt="" coords="5,39,172,80"/>
-<area shape="rect" id="node2" href="$classrobot__env__evaluator_1_1_franka_emika_no_hand_preset.html" title="The Franka Emika Panda no hand collision mesh robot preset." alt="" coords="220,5,428,47"/>
-<area shape="rect" id="node3" href="$classrobot__env__evaluator_1_1_franka_emika_preset.html" title="The Franka Emika Panda robot preset." alt="" coords="246,71,402,112"/>
+<area shape="rect" id="Node000001" title="the Interface class for the robot preset. Inherit this class to create a new robot preset." alt="" coords="5,37,172,77"/>
+<area shape="rect" id="Node000002" href="$classrobot__env__evaluator_1_1_franka_emika_no_hand_preset.html" title="The Franka Emika Panda no hand collision mesh robot preset." alt="" coords="220,5,427,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="186,41,220,37,220,42,186,47"/>
+<area shape="rect" id="Node000003" href="$classrobot__env__evaluator_1_1_franka_emika_preset.html" title="The Franka Emika Panda robot preset." alt="" coords="245,69,401,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="186,68,246,76,245,81,186,73"/>
 </map>
