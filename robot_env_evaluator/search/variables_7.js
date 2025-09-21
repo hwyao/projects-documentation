@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['projector_5fdist_5fto_5fcontrol_5fenable_5f_0',['projector_dist_to_control_enable_',['../classrobot__env__evaluator_1_1_robot_env_evaluator.html#a67d917b0b84fde6cb1d12df3047eefde',1,'robot_env_evaluator::RobotEnvEvaluator']]],
-  ['projector_5fdist_5fto_5fcontrol_5fwith_5fzero_5forientation_5f_1',['projector_dist_to_control_with_zero_orientation_',['../classrobot__env__evaluator_1_1_robot_env_evaluator.html#a599b66645972e9828977a3f85dfadcf9',1,'robot_env_evaluator::RobotEnvEvaluator']]]
+  ['robust_5fpinv_5flambda_5f_0',['robust_pinv_lambda_',['../classrobot__env__evaluator_1_1_robot_env_evaluator.html#a357188167ba2cec0626b9c6ea1fa96a5',1,'robot_env_evaluator::RobotEnvEvaluator']]]
 ];

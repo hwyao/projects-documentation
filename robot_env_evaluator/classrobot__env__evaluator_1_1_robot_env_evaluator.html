@@ -93,6 +93,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7fc8081dc8fa87ade191ac433e2ead6d" id="r_a7fc8081dc8fa87ade191ac433e2ead6d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#a7fc8081dc8fa87ade191ac433e2ead6d">RobotEnvEvaluator</a> (const pinocchio::Model &amp;model, const std::string &amp;ee_name, const std::vector&lt; std::string &gt; &amp;joint_names, const pinocchio::GeometryModel &amp;collision_model, const pinocchio::GeometryModel &amp;visual_model=pinocchio::GeometryModel())</td></tr>
 <tr class="memdesc:a7fc8081dc8fa87ade191ac433e2ead6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct a new Robot Env Evaluator object.  <br /></td></tr>
 <tr class="separator:a7fc8081dc8fa87ade191ac433e2ead6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e9c6d990490312ecd4cb9b9e5cb443" id="r_a62e9c6d990490312ecd4cb9b9e5cb443"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#a62e9c6d990490312ecd4cb9b9e5cb443">RobotEnvEvaluator</a> (const <a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html">RobotEnvEvaluator</a> &amp;other)</td></tr>
+<tr class="memdesc:a62e9c6d990490312ecd4cb9b9e5cb443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor for Robot Env Evaluator object.  <br /></td></tr>
+<tr class="separator:a62e9c6d990490312ecd4cb9b9e5cb443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c85735f0a096df814a6aabafb36d9d4" id="r_a6c85735f0a096df814a6aabafb36d9d4"><td class="memItemLeft" align="right" valign="top"><a id="a6c85735f0a096df814a6aabafb36d9d4" name="a6c85735f0a096df814a6aabafb36d9d4"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>~RobotEnvEvaluator</b> ()=default</td></tr>
 <tr class="memdesc:a6c85735f0a096df814a6aabafb36d9d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroy the Robot Env Evaluator object. <br /></td></tr>
@@ -124,9 +127,15 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a599b66645972e9828977a3f85dfadcf9" id="r_a599b66645972e9828977a3f85dfadcf9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#a599b66645972e9828977a3f85dfadcf9">projector_dist_to_control_with_zero_orientation_</a> = false</td></tr>
 <tr class="memdesc:a599b66645972e9828977a3f85dfadcf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to use the full Jacobian and set the orientation to zero when calculating the projector.  <br /></td></tr>
 <tr class="separator:a599b66645972e9828977a3f85dfadcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36808e10d86850d51d52ce5f4d339e86" id="r_a36808e10d86850d51d52ce5f4d339e86"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#a36808e10d86850d51d52ce5f4d339e86">broad_phase_search_enable_</a> = true</td></tr>
+<tr class="memdesc:a36808e10d86850d51d52ce5f4d339e86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether to enable the broad phase search for collision detection.  <br /></td></tr>
+<tr class="separator:a36808e10d86850d51d52ce5f4d339e86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a357188167ba2cec0626b9c6ea1fa96a5" id="r_a357188167ba2cec0626b9c6ea1fa96a5"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#a357188167ba2cec0626b9c6ea1fa96a5">robust_pinv_lambda_</a> = 0.001</td></tr>
 <tr class="memdesc:a357188167ba2cec0626b9c6ea1fa96a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The lambda value for the robust pseudo-inverse projector.  <br /></td></tr>
 <tr class="separator:a357188167ba2cec0626b9c6ea1fa96a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0646c44ab2dc4d72193bbcdfe9a401d1" id="r_a0646c44ab2dc4d72193bbcdfe9a401d1"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#a0646c44ab2dc4d72193bbcdfe9a401d1">broad_phase_collision_padding_</a> = 0.05</td></tr>
+<tr class="memdesc:a0646c44ab2dc4d72193bbcdfe9a401d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The threshold for the broad phase search, this margin will be appended to first into GJK test and disable the distance computation.  <br /></td></tr>
+<tr class="separator:a0646c44ab2dc4d72193bbcdfe9a401d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
@@ -160,12 +169,6 @@ Protected Attributes</h2></td></tr>
 <tr class="memitem:aaad6e0774c540d9d82864886bec4d322" id="r_aaad6e0774c540d9d82864886bec4d322"><td class="memItemLeft" align="right" valign="top">std::vector&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#aaad6e0774c540d9d82864886bec4d322">joint_indices_</a></td></tr>
 <tr class="memdesc:aaad6e0774c540d9d82864886bec4d322"><td class="mdescLeft">&#160;</td><td class="mdescRight">The joint indices for the robot model.  <br /></td></tr>
 <tr class="separator:aaad6e0774c540d9d82864886bec4d322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af98439397383e3eb181ee057c8dad408" id="r_af98439397383e3eb181ee057c8dad408"><td class="memItemLeft" align="right" valign="top">pinocchio::GeometryModel&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#af98439397383e3eb181ee057c8dad408">geom_model_</a></td></tr>
-<tr class="memdesc:af98439397383e3eb181ee057c8dad408"><td class="mdescLeft">&#160;</td><td class="mdescRight">The geometry model for collision computation.  <br /></td></tr>
-<tr class="separator:af98439397383e3eb181ee057c8dad408"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa1d7f0f235f7c73150b88bdb978d26fe" id="r_aa1d7f0f235f7c73150b88bdb978d26fe"><td class="memItemLeft" align="right" valign="top">pinocchio::GeometryData&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#aa1d7f0f235f7c73150b88bdb978d26fe">geom_data_</a></td></tr>
-<tr class="memdesc:aa1d7f0f235f7c73150b88bdb978d26fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">The geometry data for collision computation.  <br /></td></tr>
-<tr class="separator:aa1d7f0f235f7c73150b88bdb978d26fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>The main functionality class, which provides functionalities for evaluating robot environment information. </p>
@@ -185,7 +188,7 @@ Protected Attributes</h2></td></tr>
 <p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00082">82</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7fc8081dc8fa87ade191ac433e2ead6d" name="a7fc8081dc8fa87ade191ac433e2ead6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7fc8081dc8fa87ade191ac433e2ead6d">&#9670;&#160;</a></span>RobotEnvEvaluator()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fc8081dc8fa87ade191ac433e2ead6d">&#9670;&#160;</a></span>RobotEnvEvaluator() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -241,7 +244,35 @@ Protected Attributes</h2></td></tr>
 </dl>
 <p>These models are supposed to be loaded from URDF files, and then activate (also deactivate) the collision pairs. Also editing model is acceptable, therefore this class allows a flexible way to input them. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00028">28</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00031">31</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a62e9c6d990490312ecd4cb9b9e5cb443" name="a62e9c6d990490312ecd4cb9b9e5cb443"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e9c6d990490312ecd4cb9b9e5cb443">&#9670;&#160;</a></span>RobotEnvEvaluator() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">robot_env_evaluator::RobotEnvEvaluator::RobotEnvEvaluator </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html">RobotEnvEvaluator</a> &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy constructor for Robot Env Evaluator object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">other</td><td>The <a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html" title="The main functionality class, which provides functionalities for evaluating robot environment informa...">RobotEnvEvaluator</a> object to copy from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00059">59</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -290,7 +321,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="robot_env_evaluator_example_8cpp-example.html#a1">robot_env_evaluator_example.cpp</a>.</dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00123">123</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00154">154</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -327,7 +358,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <p>This function is used to check if the joint configuration is changed, if yes, the computation will be done. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00226">226</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00298">298</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -374,7 +405,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <p>As pinocchio convention, the index 0 is the base joint, and the index 1 is the first joint, therefore 1 to length of [joint_names] in input is the real joint index. Default is -1, which means the end-effector. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00056">56</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00087">87</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -421,7 +452,7 @@ Protected Attributes</h2></td></tr>
 </dl>
 <p>The name will the defined by the robot URDF file. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00073">73</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00104">104</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -470,7 +501,7 @@ Protected Attributes</h2></td></tr>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="robot_env_evaluator_example_8cpp-example.html#a2">robot_env_evaluator_example.cpp</a>.</dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00086">86</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00117">117</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -516,7 +547,7 @@ Protected Attributes</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00102">102</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00133">133</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
@@ -571,11 +602,47 @@ Protected Attributes</h2></td></tr>
 </dl>
 <p>Warning, direct use of this function is not recommended because it does not apply any safety check on the frame index. Use <a class="el" href="classrobot__env__evaluator_1_1_robot_env_evaluator.html#a8ed94c61a968af8306f17a50d4b5facb" title="Get the jacobian of specific frame, specified by the name.">jacobianByFrameName()</a> instead. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00115">115</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8cpp_source.html#l00146">146</a> of file <a class="el" href="robot__env__evaluator_8cpp_source.html">robot_env_evaluator.cpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0646c44ab2dc4d72193bbcdfe9a401d1" name="a0646c44ab2dc4d72193bbcdfe9a401d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0646c44ab2dc4d72193bbcdfe9a401d1">&#9670;&#160;</a></span>broad_phase_collision_padding_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double robot_env_evaluator::RobotEnvEvaluator::broad_phase_collision_padding_ = 0.05</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The threshold for the broad phase search, this margin will be appended to first into GJK test and disable the distance computation. </p>
+
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00185">185</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a36808e10d86850d51d52ce5f4d339e86" name="a36808e10d86850d51d52ce5f4d339e86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36808e10d86850d51d52ce5f4d339e86">&#9670;&#160;</a></span>broad_phase_search_enable_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool robot_env_evaluator::RobotEnvEvaluator::broad_phase_search_enable_ = true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Whether to enable the broad phase search for collision detection. </p>
+
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00183">183</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a2528ce8165890f4d1e93295e0ebe65e3" name="a2528ce8165890f4d1e93295e0ebe65e3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2528ce8165890f4d1e93295e0ebe65e3">&#9670;&#160;</a></span>buffered_q_</h2>
 
@@ -598,7 +665,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The buffered joint configuration. This is used to avoid unnecessary computation. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00204">204</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00213">213</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -616,7 +683,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Whether to calculate self-collision in distance computation. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00173">173</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00180">180</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -642,7 +709,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The collision model. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00208">208</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00217">217</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -668,7 +735,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The robot data, initialized from the model. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00207">207</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00216">216</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -694,59 +761,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The internal index for end-effector.frame. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00210">210</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="aa1d7f0f235f7c73150b88bdb978d26fe" name="aa1d7f0f235f7c73150b88bdb978d26fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1d7f0f235f7c73150b88bdb978d26fe">&#9670;&#160;</a></span>geom_data_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">pinocchio::GeometryData robot_env_evaluator::RobotEnvEvaluator::geom_data_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The geometry data for collision computation. </p>
-
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00214">214</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
-
-</div>
-</div>
-<a id="af98439397383e3eb181ee057c8dad408" name="af98439397383e3eb181ee057c8dad408"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af98439397383e3eb181ee057c8dad408">&#9670;&#160;</a></span>geom_model_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">pinocchio::GeometryModel robot_env_evaluator::RobotEnvEvaluator::geom_model_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The geometry model for collision computation. </p>
-
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00213">213</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00219">219</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -772,7 +787,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The joint indices for the robot model. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00211">211</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00220">220</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -798,7 +813,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The robot model. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00206">206</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00215">215</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -816,7 +831,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Whether to calculate the projector from distance to control space. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00174">174</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00181">181</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -834,7 +849,7 @@ Protected Attributes</h2></td></tr>
 
 <p>Whether to use the full Jacobian and set the orientation to zero when calculating the projector. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00175">175</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00182">182</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -852,7 +867,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The lambda value for the robust pseudo-inverse projector. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00176">176</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00184">184</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>
@@ -878,7 +893,7 @@ Protected Attributes</h2></td></tr>
 
 <p>The visual model. </p>
 
-<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00209">209</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="robot__env__evaluator_8hpp_source.html#l00218">218</a> of file <a class="el" href="robot__env__evaluator_8hpp_source.html">robot_env_evaluator.hpp</a>.</p>
 
 </div>
 </div>

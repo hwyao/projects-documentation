@@ -4,7 +4,7 @@ var indexSectionsWithContent =
   1: "dfkor",
   2: "rs",
   3: "cfgijr~",
-  4: "bcdegjmprv",
+  4: "bcdejmprv",
   5: "o",
   6: "r"
 };

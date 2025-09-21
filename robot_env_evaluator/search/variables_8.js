@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['robust_5fpinv_5flambda_5f_0',['robust_pinv_lambda_',['../classrobot__env__evaluator_1_1_robot_env_evaluator.html#a357188167ba2cec0626b9c6ea1fa96a5',1,'robot_env_evaluator::RobotEnvEvaluator']]]
+  ['visual_5fmodel_5f_0',['visual_model_',['../classrobot__env__evaluator_1_1_robot_env_evaluator.html#a494fe65a4dbd59bae82f2c0b2f5d8725',1,'robot_env_evaluator::RobotEnvEvaluator']]]
 ];
